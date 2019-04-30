@@ -7,7 +7,8 @@ author:     "Ambi9u0us"
 header-img: "/img/in-post/1556521616210.png"
 catalog: true
 tags:
-    - 生活
+    - ctf
+    - Writeup
 ---
 
 # 2019  *ctf Writeup
