@@ -1,0 +1,2 @@
+_includes\footer.html:12:                    Powered by <a href="http://huangxuan.me">Hux Blog</a> |
+_posts\2014-01-29-hello-2015.markdown:30:在玩了一段时间知乎之后，答题的快感又激起了我开博客的冲动。之前的[个人网站](http://huangxuan.me/portfolio)是作品集形式的（现在集成进来了），并不适合用来写博文，一不做二不休，花一天搞一个吧！
