@@ -1,10 +1,10 @@
 ---
 layout:     post
 title:      "2019 *ctf Writeup"
-subtitle:  
+subtitle:  1
 date:       2019-04-30
 author:     "Ambi9u0us"
-header-img: 
+header-img: "/img/in-post/1556521616210.png"
 catalog: true
 tags:
     - ctf
