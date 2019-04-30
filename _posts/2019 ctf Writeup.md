@@ -3,7 +3,6 @@ layout:     post
 title:      "2019 *ctf Writeup"
 date:       2019-04-30
 author:     "Ambi9u0us"
-header-img: 
 catalog: true
 tags:
     - ctf
