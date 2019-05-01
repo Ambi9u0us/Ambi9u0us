@@ -1,2 +1,2 @@
-> Thanks for the Template of <https://github.com/Huxpro/>
+> Thanks for the Template from <https://github.com/Huxpro/>
 
