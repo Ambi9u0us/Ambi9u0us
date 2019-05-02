@@ -7,11 +7,14 @@ catalog: true
 tags:
     - ctf
     - Writeup
+    - reverse
 ---
 
 # 2019  *ctf Writeup
 
 很不幸，这次就做出了一道re的题fanoGo，简单记录一下自己做出来的经历吧
+
+[TOC]
 
 ## fanoGo
 
