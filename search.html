@@ -3,7 +3,7 @@ title: Search
 layout: default
 ---
 
-{% include head.html %}
+{% include intro-header.html type='page' short=true %}
 
 <!-- Html Elements for Search -->
 <div id="search-container">
@@ -19,8 +19,7 @@ layout: default
   </ul>
 </div>
 <!-- Script pointing to jekyll-search.js -->
-<script src="{{ site.baseurl }}/js/simple-jekyll-search.js" type="text/javascript"></script>
-<script type="text/javascript">
+<script src="{{ site.baseurl }}/js/simple-jekyll-search.js" type="text/javascript">
 	SimpleJekyllSearch({
 		searchInput: document.getElementById('search-input'),
 		resultsContainer: document.getElementById('results-container'),
@@ -30,6 +29,9 @@ layout: default
 		limit: 20, // 返回最大文章数
 		fuzzy: false // 是否模糊匹配
 	})
+</script>
+<script type="text/javascript">
+	
 </script>
 
 
