@@ -12,29 +12,23 @@ layout: default
 </div>
 
 <div class="dropdown navbar-form navbar-right ">
-   <input  id="dLabel" name="word" type="text"  aria-haspopup="true" aria-expanded="false" data-toggle="dropdown" class="form-control typeahead"   placeholder="搜索">
+	<input  id="dLabel" name="word" type="text"  aria-haspopup="true" aria-expanded="false" data-toggle="dropdown" class="form-control typeahead"   placeholder="搜索">
   
-  <ul class="dropdown-menu" aria-labelledby="dLabel" id="c">
-    
-  </ul>
+	<ul class="dropdown-menu" aria-labelledby="dLabel" id="c">
+		<script src="{{ site.baseurl }}/js/simple-jekyll-search.js" type="text/javascript">
+			SimpleJekyllSearch({
+				searchInput: document.getElementById('search-input'),
+				resultsContainer: document.getElementById('results-container'),
+				json: '/search.json',
+				searchResultTemplate: '<li><a href="{url}" title="{desc}">{title}</a></li>', // 文章列表模板
+				noResultsText: '没有搜索到文章', // 无搜索数据提示语
+				limit: 20, // 返回最大文章数
+				fuzzy: false // 是否模糊匹配
+			})
+		</script>
+	</ul>
 </div>
 <!-- Script pointing to jekyll-search.js -->
-<script src="{{ site.baseurl }}/js/simple-jekyll-search.js" type="text/javascript">
-	SimpleJekyllSearch({
-		searchInput: document.getElementById('search-input'),
-		resultsContainer: document.getElementById('results-container'),
-		json: '/search.json',
-		searchResultTemplate: '<li><a href="{url}" title="{desc}">{title}</a></li>', // 文章列表模板
-		noResultsText: '没有搜索到文章', // 无搜索数据提示语
-		limit: 20, // 返回最大文章数
-		fuzzy: false // 是否模糊匹配
-	})
-</script>
-<script type="text/javascript">
-	
-</script>
-
-
 
 <!-- Search -->
 <!--
