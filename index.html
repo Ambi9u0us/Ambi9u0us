@@ -5,6 +5,7 @@ description: "May the force be with you."
 
 {% for post in paginator.posts %}
 <div class="post-preview">
+	<a class="rss-link" href="{{ "/feed.xml" | prepend: site.baseurl }}">RSS Feed</a>
     <a href="{{ post.url | prepend: site.baseurl }}">
         <h2 class="post-title">
             {{ post.title }}
