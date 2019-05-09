@@ -34,7 +34,7 @@ layout: default
 
 <!-- Script pointing to jekyll-search.js -->
 <script src="{{ site.baseurl }}/bower_components/simple-jekyll-search/dest/jekyll-search.js" type="text/javascript"></script>
-
+<script type="text/javascript">
 SimpleJekyllSearch({
     searchInput: document.getElementById('search-input'),
     resultsContainer: document.getElementById('results-container'),
@@ -44,6 +44,8 @@ SimpleJekyllSearch({
     limit: 20, // 返回最大文章数
     fuzzy: false // 是否模糊匹配
 })
+</script>
+
 
 <div class="dropdown navbar-form navbar-right ">
    <input  id="dLabel" name="word" type="text"  aria-haspopup="true" aria-expanded="false" data-toggle="dropdown" class="form-control typeahead"   placeholder="搜索">
