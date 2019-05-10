@@ -108,10 +108,13 @@ page-mathjax: false
 # Friends
 friends: [
     {
-    #     title: "Su",
-    #     href: "http://su.gallery/"
-    # },{
-    #    title: "乱序",
-    #    href: "http://mida.re/"
+         title: "Bendawang呱",
+         href: "http://www.bendawang.site/"
+     },{
+        title: "Simple师傅",
+        href: "http://blog.leanote.com/simp1e"
+    },{
+        title: "大猪头tql",
+        href: "http://blog.leanote.com/mut3p1g"
     }
 ]
