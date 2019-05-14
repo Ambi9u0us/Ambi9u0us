@@ -64,5 +64,3 @@ typora-root-url: ..
 
 
 回到正题，当我终于发现pwntool能够解决我的问题的时，简直爆炸，题目全都在互相融合了么？然后写下脚本，发送到远程，获取到flag，注意这里发送的时候最好在收到Say something:之后，而且要用send不要用sendline，不然进行解密的字符串会多一个\n字符，最后captute the flag：*CTF{NUY4a3E5D9186hVzejoyItr7xHBcmOpv}
-
-好像写得太罗嗦了，望见谅。
