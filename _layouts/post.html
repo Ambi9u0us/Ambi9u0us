@@ -48,7 +48,7 @@ layout: default
                 post-container">
 
 				{{ content }}
-
+				{% include toc.html html=content %}
                 <hr>
 
                 {% if site.duoshuo_share && site.duoshuo_username %}
