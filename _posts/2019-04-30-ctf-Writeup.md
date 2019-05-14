@@ -8,6 +8,7 @@ tags:
     - ctf
     - Writeup
     - reverse
+typora-root-url: ..
 ---
 
 # 2019  *ctf Writeup
