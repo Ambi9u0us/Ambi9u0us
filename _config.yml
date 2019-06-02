@@ -108,16 +108,16 @@ page-mathjax: false
 # Friends
 friends: [
     {
-         title: "Bendawang呱",
+         title: "Bendawang师傅",
          href: "http://www.bendawang.site/"
      },{
         title: "Simple师傅",
         href: "http://blog.leanote.com/simp1e"
     },{
-        title: "大猪头tql",
+        title: "mutepigtql",
         href: "http://blog.leanote.com/mut3p1g"
     },{
-        title: "泽哥无敌",
+        title: "ray-cp无敌",
         href: "https://ray-cp.github.io/"
     }
 ]

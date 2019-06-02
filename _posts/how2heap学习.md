@@ -1,6 +1,6 @@
 # how2heap学习
 
-[TOC]
+## 前言
 
 how2heap是**shellphish**团队在Github上开源的堆漏洞系列教程（[项目地址在此](<https://github.com/shellphish/how2heap>)），是对堆进行学习检验比较好的项目，在学习前后参考了华庭大佬学写的**“Glibc内存管理-Ptmalloc2源码分析”**，这对于进一步理解整个堆的内存分配与管理十分有作用，[链接地址](https://paper.seebug.org/papers/Archive/refs/heap/glibc%E5%86%85%E5%AD%98%E7%AE%A1%E7%90%86ptmalloc%E6%BA%90%E4%BB%A3%E7%A0%81%E5%88%86%E6%9E%90.pdf)
 
@@ -35,3 +35,4 @@ malloc=>fake_value
 
 ### 3.1	9447 CTF 2015: Search Engine
 
+使用Index_sentence添加句子，并且存储了一个Word结构体，然后用Search_word搜索输入的word所在的句子，找到后如果选择删除，将会把word中记录的sentence内容清空变为\x00，并free掉，但是该地址的索引并没有删除，仍然存在，这样就可以通过再次添加句子，使得Word结构体可以被调用，通过搜索\x00来找到之前删掉的句子所在内存，而Word结构体链表一直时固定存储在words所在的地址，
