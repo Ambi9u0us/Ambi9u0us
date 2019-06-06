@@ -8,7 +8,6 @@ tags:
     - ctf
     - Writeup
     - Hotel California
-    - defcon ctf 2019
 typora-root-url: ..
 ---
 

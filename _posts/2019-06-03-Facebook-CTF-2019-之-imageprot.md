@@ -5,7 +5,6 @@ date:       2019-06-03
 author:     "Ambi9u0us"
 catalog: true
 tags:
-    - fbctf 2019
     - Writeup
     - reverse
 typora-root-url: ..
